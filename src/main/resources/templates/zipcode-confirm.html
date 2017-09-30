@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Title</title>
+</head>
+<body>
+    th:each="item : ${zipcodeList}" th:object = "${item}"
+    th:text="*{zipcode}"
+    th:text="*{prefcode}"
+    th:text="*{address1}"
+</body>
+</html>
