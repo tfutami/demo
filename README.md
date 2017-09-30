@@ -1,1 +1,2 @@
-stuby
+- SpringBoot Study
+- 適当なAPIをCallして、結果を表示する
